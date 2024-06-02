@@ -46,7 +46,7 @@ await placemarkFromCoordinates(position.latitude, position.longitude);
 
 //extract citynames fromn the first placemark
 
-String? city = placemarks[0].street;
+String? city = placemarks[0].locality;
 
 return city?? "";
 
