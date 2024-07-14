@@ -13,7 +13,7 @@ class _WeatherPageState extends State<WeatherPage> {
 
 
   //api Key
-  final _weatherService = WeatherService('683eea191171fe2c02f4e92188ba65ef');
+  final _weatherService = WeatherService();
   Weather? _weather;
 
   // fetch weather
